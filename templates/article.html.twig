@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+{% block content %}
+<main>
+    <article class="carte article">
+        <div class="imgDetail">
+            <img src="https://cdn.shopify.com/s/files/1/0049/2293/3366/products/Site-Front_0dd604c2-62ca-4305-85bb-58573be32e43_grande.png?v=1562489356" alt="" class="resp">
+        </div>
+        <div class="detail">
+            <h1> {{ nom_article }}</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque blanditiis consequuntur doloribus eos, ex facere fuga fugiat id laudantium minus modi natus obcaecati pariatur, possimus quod reiciendis unde ut voluptas?</p>
+        </div>
+        <form action="button">
+            <input type="submit" value="Acheter">
+
+                <select id="taille">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+        </form>
+    </article>
+    <aside>
+        <h1> Recommander </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid consequuntur deserunt doloremque doloribus earum eius, iure magnam necessitatibus nemo nobis non pariatur ratione repudiandae voluptate! Autem est itaque minus.</p>
+    </aside>
+</main>
+{% endblock %}
+
